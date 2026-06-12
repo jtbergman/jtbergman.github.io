@@ -1,0 +1,35 @@
+/* Default theme — warm serif (Literata), amber accent. */
+
+:root {
+  --font-body: "Literata", Georgia, "Times New Roman", serif;
+  --font-mono: "JetBrains Mono", ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+
+  --size-base: 1.1875rem;
+  --leading: 1.65;
+  --measure: 40rem;
+
+  --h1: 2.25rem;
+  --h2: 1.6rem;
+  --h3: 1.25rem;
+  --small: 0.85rem;
+
+  --ink: #1c1b19;
+  --ink-soft: #57534d;
+  --paper: #fbfaf7;
+  --rule: #e7e3da;
+  --accent: #9c3a2b;
+  --code-bg: #f2efe8;
+
+  --space: 1.5rem;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --ink: #e4dacb;
+    --ink-soft: #a59c8c;
+    --paper: #1b1814;
+    --rule: #34302a;
+    --accent: #e08a6d;
+    --code-bg: #221f1a;
+  }
+}

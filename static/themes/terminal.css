@@ -1,0 +1,35 @@
+/* Terminal theme — monospace top to bottom, green accents, terminal-vibe. */
+
+:root {
+  --font-body: "JetBrains Mono", ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+  --font-mono: "JetBrains Mono", ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+
+  --size-base: 1.0625rem;
+  --leading: 1.65;
+  --measure: 40rem;
+
+  --h1: 1.75rem;
+  --h2: 1.35rem;
+  --h3: 1.1rem;
+  --small: 0.8rem;
+
+  --ink: #1a1a1a;
+  --ink-soft: #6b7280;
+  --paper: #f3f4f6;
+  --rule: #d1d5db;
+  --accent: #2d8a2d;
+  --code-bg: #e5e7eb;
+
+  --space: 1.5rem;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --ink: #d4d4d4;
+    --ink-soft: #6b7280;
+    --paper: #0a0a0a;
+    --rule: #27272a;
+    --accent: #7ecb7e;
+    --code-bg: #141414;
+  }
+}

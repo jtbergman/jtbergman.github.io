@@ -1,0 +1,27 @@
+{
+  "intro": "This is just sample data for now – please hold 🤣",
+  "sections": [
+    {
+      "title": "Sintra",
+      "when": "May 2026",
+      "photos": [
+        { "src": "https://picsum.photos/seed/sintra1/600/450", "full": "https://picsum.photos/seed/sintra1/1200/900", "alt": "Palace garden in mist", "caption": "Pena gardens at opening" },
+        { "src": "https://picsum.photos/seed/sintra2/600/900", "full": "https://picsum.photos/seed/sintra2/1200/1800", "alt": "Mossy stone steps", "caption": "The long way down" },
+        { "src": "https://picsum.photos/seed/sintra3/600/900", "full": "https://picsum.photos/seed/sintra3/1200/1800", "alt": "Carved stone well", "caption": "The initiation well, Regaleira" },
+        { "src": "https://picsum.photos/seed/sintra4/600/450", "full": "https://picsum.photos/seed/sintra4/1200/900", "alt": "Fog over hills", "caption": "Fog that never quite lifted" }
+      ]
+    },
+    {
+      "title": "Hokkaido",
+      "when": "January 2026",
+      "photos": [
+        { "src": "https://picsum.photos/seed/hok1/600/900", "full": "https://picsum.photos/seed/hok1/1200/1800", "alt": "Snow-laden trees", "caption": "Daisetsuzan, \u221214\u00b0C" },
+        { "src": "https://picsum.photos/seed/hok2/600/450", "full": "https://picsum.photos/seed/hok2/1200/900", "alt": "Steam over an onsen", "caption": "Noboribetsu" },
+        { "src": "https://picsum.photos/seed/hok3/600/450", "full": "https://picsum.photos/seed/hok3/1200/900", "alt": "Bowl of ramen", "caption": "The miso ramen I still think about" },
+        { "src": "https://picsum.photos/seed/hok4/600/900", "full": "https://picsum.photos/seed/hok4/1200/1800", "alt": "Snowy lantern-lit street", "caption": "Otaru after dark" },
+        { "src": "https://picsum.photos/seed/hok5/600/450", "full": "https://picsum.photos/seed/hok5/1200/900", "alt": "Frozen coastline", "caption": "Drift ice, Abashiri" },
+        { "src": "https://picsum.photos/seed/hok6/600/450", "full": "https://picsum.photos/seed/hok6/1200/900", "alt": "Train window view", "caption": "From the slow train" }
+      ]
+    }
+  ]
+}

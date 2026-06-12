@@ -1,0 +1,35 @@
+/* Sans-serif theme — Inter, cool tones, indigo accent. */
+
+:root {
+  --font-body: "Inter", -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+
+  --size-base: 1.125rem;
+  --leading: 1.7;
+  --measure: 42rem;
+
+  --h1: 2.5rem;
+  --h2: 1.7rem;
+  --h3: 1.3rem;
+  --small: 0.85rem;
+
+  --ink: #18181b;
+  --ink-soft: #71717a;
+  --paper: #fafafa;
+  --rule: #e4e4e7;
+  --accent: #6366f1;
+  --code-bg: #f4f4f5;
+
+  --space: 1.5rem;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --ink: #e4e4e7;
+    --ink-soft: #a1a1aa;
+    --paper: #09090b;
+    --rule: #27272a;
+    --accent: #818cf8;
+    --code-bg: #18181b;
+  }
+}
